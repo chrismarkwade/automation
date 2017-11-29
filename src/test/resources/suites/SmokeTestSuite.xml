@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" verbose="1" parallel="tests" thread-count="3">
+    
+    <test name="ChromeSmokeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="tests.SignInPageTest">
+                <methods>
+                    <include name="testSignInFromHeader" />
+                </methods>
+            </class>
+            <class name="tests.PageHeaderTest">
+                <methods>
+                    <include name="testSignOut" />
+                    <include name="testSearchInAllDepartments" />
+                </methods>
+            </class>
+            <class name="tests.SearchResultsPageTest">
+                <methods>
+                    <include name="testProductTitleLink" />
+                </methods>
+            </class>
+            <class name="tests.ProductPageTest">
+                <methods>
+                    <include name="testAddToCart" />
+                </methods>
+            </class>
+            <class name="tests.AddedToCartPageTest">
+                <methods>
+                    <include name="testCartBtn" />
+                </methods>
+            </class>
+            <class name="tests.CartPageTest">
+                <methods>
+                    <include name="testProceedToCheckoutBtnSignedIn" />
+                </methods>
+            </class>
+            <class name="tests.PlaceOrderPageTest">
+                <methods>
+                    <include name="testPlaceOrder" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="FirefoxSmokeTest">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="tests.SignInPageTest">
+                <methods>
+                    <include name="testSignInFromHeader" />
+                </methods>
+            </class>
+            <class name="tests.PageHeaderTest">
+                <methods>
+                    <include name="testSignOut" />
+                    <include name="testSearchInAllDepartments" />
+                </methods>
+            </class>
+            <class name="tests.SearchResultsPageTest">
+                <methods>
+                    <include name="testProductTitleLink" />
+                </methods>
+            </class>
+            <class name="tests.ProductPageTest">
+                <methods>
+                    <include name="testAddToCart" />
+                </methods>
+            </class>
+            <class name="tests.AddedToCartPageTest">
+                <methods>
+                    <include name="testCartBtn" />
+                </methods>
+            </class>
+            <class name="tests.CartPageTest">
+                <methods>
+                    <include name="testProceedToCheckoutBtnSignedIn" />
+                </methods>
+            </class>
+            <class name="tests.PlaceOrderPageTest">
+                <methods>
+                    <include name="testPlaceOrder" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="InternetExplorerSmokeTest">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="tests.SignInPageTest">
+                <methods>
+                    <include name="testSignInFromHeader" />
+                </methods>
+            </class>
+            <class name="tests.PageHeaderTest">
+                <methods>
+                    <include name="testSignOut" />
+                    <include name="testSearchInAllDepartments" />
+                </methods>
+            </class>
+            <class name="tests.SearchResultsPageTest">
+                <methods>
+                    <include name="testProductTitleLink" />
+                </methods>
+            </class>
+            <class name="tests.ProductPageTest">
+                <methods>
+                    <include name="testAddToCart" />
+                </methods>
+            </class>
+            <class name="tests.AddedToCartPageTest">
+                <methods>
+                    <include name="testCartBtn" />
+                </methods>
+            </class>
+            <class name="tests.CartPageTest">
+                <methods>
+                    <include name="testProceedToCheckoutBtnSignedIn" />
+                </methods>
+            </class>
+            <class name="tests.PlaceOrderPageTest">
+                <methods>
+                    <include name="testPlaceOrder" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
