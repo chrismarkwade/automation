@@ -1,4 +1,4 @@
-# Amazon-Automation
+# Amazon Automation
 
 A test automation framework for Amazon.ca.
 
@@ -23,7 +23,7 @@ An automation portfolio project by [Chris Wade](https://ca.linkedin.com/in/chris
 
 - TestNG DataProviders to create data-driven tests
 
-- TestNG XML test suites
+- TestNG XML test suites to run parallel cross-browser tests
 
 - TestNG Listeners
 
@@ -73,7 +73,7 @@ An automation portfolio project by [Chris Wade](https://ca.linkedin.com/in/chris
 
 ## Test Examples
 
-### Test place order
+### [Test place order](https://youtu.be/O8Cs4V_rNWI)
 
 ```java
 public class PlaceOrderPageTest extends BaseTest {
@@ -95,7 +95,7 @@ public class PlaceOrderPageTest extends BaseTest {
 }
 ```
 
-### Verify product offer price
+### [Verify product offer price](https://youtu.be/5ZeZS52_sk4)
 
 ```java
 public class ProductPageTest extends BaseTest {
@@ -122,3 +122,5 @@ public class ProductPageTest extends BaseTest {
     }
 }
 ```
+
+Test videos can be found here: [Amazon Automation](https://www.youtube.com/playlist?list=PLg5BxwBsa3IrFS8LBK7yussh3NsnKeZyV)
