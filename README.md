@@ -4,7 +4,7 @@ A test automation framework for Amazon.ca.
 
 Written in Java, using Selenium WebDriver, TestNG, Maven, and the Page Object Model.
 
-An automation portfolio project by [Chris Wade](https://ca.linkedin.com/in/chrismarkwade).
+An automation portfolio project by [Chris Wade](https://ca.linkedin.com/in/chrismarkwade "LinkedIn").
 
 
 ## Features
@@ -73,7 +73,7 @@ An automation portfolio project by [Chris Wade](https://ca.linkedin.com/in/chris
 
 ## Test Examples
 
-### [Test place order](https://youtu.be/O8Cs4V_rNWI)
+### Test Place Order
 
 ```java
 public class PlaceOrderPageTest extends BaseTest {
@@ -95,7 +95,9 @@ public class PlaceOrderPageTest extends BaseTest {
 }
 ```
 
-### [Verify product offer price](https://youtu.be/5ZeZS52_sk4)
+Video: [Test Place Order](https://youtu.be/O8Cs4V_rNWI "YouTube Video")
+
+### Verify Product Offer Price
 
 ```java
 public class ProductPageTest extends BaseTest {
@@ -123,4 +125,9 @@ public class ProductPageTest extends BaseTest {
 }
 ```
 
-Test videos can be found here: [Amazon Automation](https://www.youtube.com/playlist?list=PLg5BxwBsa3IrFS8LBK7yussh3NsnKeZyV)
+Video: [Verify Product Offer Price](https://youtu.be/5ZeZS52_sk4 "YouTube Video")
+
+***
+
+Test videos can be found here:
+[Amazon Automation Videos](https://www.youtube.com/playlist?list=PLg5BxwBsa3IrFS8LBK7yussh3NsnKeZyV "YouTube Playlist")
